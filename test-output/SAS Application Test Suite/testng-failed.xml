@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SAS Application Test Suite]">
+  <listeners>
+    <listener class-name="com.ExtentReportLisner.ExtentReporterNG"/>
+  </listeners>
+  <test name="Kn Application Test Cases(failed)">
+    <classes>
+      <class name="com.kn.qa.tests.KnContactusPageTest">
+        <methods>
+          <include name="Contactus_SalesTeam" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kn.qa.tests.KnContactusPageTest -->
+    </classes>
+  </test> <!-- Kn Application Test Cases(failed) -->
+</suite> <!-- Failed suite [SAS Application Test Suite] -->

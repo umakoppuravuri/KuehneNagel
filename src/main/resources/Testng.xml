@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Kn Application Test Suite">
+
+	<listeners>
+		<listener class-name="com.kn.qa.util.MyTransfamer" />
+	</listeners>
+	<listeners>
+		<listener
+			class-name="com.ExtentReportLisner.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Kn Application Regression Test Cases">
+		<classes>
+			<class name="com.kn.qa.tests.KnLoginPageTest"></class>
+			<class name="com.kn.qa.tests.KnContactusPageTest"></class>
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
